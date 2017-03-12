@@ -1,0 +1,30 @@
+/*Side content */
+side {
+	display:inline-block;
+	width: 30%;
+	padding: 5px;
+	float: left;
+	border: none;
+}
+side.title {
+	font-size: 13px;
+	width: 98%;
+	text-align: center;
+	border-bottom: 1px dashed grey;
+	margin-bottom: 5px;
+}
+/* Main content */
+MContent {
+	padding: 5px;
+	display:inline-block;
+	width: 65%;
+	margin: auto;
+}
+MContent.section {
+	margin: auto;
+	width: 100%;
+	border-bottom: 1px dashed grey;
+}
+MContent.last {
+	border: none;
+}

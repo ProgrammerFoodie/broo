@@ -1,0 +1,50 @@
+online {
+	width: 100%;
+	font-size: 14px;
+}
+online.userlist {
+}
+online.userlist a{
+	text-decoration: none;
+	color: grey;
+	font-style: italic;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+ 	-o-transition: all .1s ease-out;
+ 	transition: all .1s ease-out;
+}
+online.userlist a:hover {
+	color: white;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+ 	-o-transition: all .1s ease-out;
+ 	transition: all .1s ease-out;
+}
+
+online.activeon {
+	display: inline-table;
+}
+online.activeon li {	
+	list-style-type: none;
+}
+online.activeon a{
+	padding-left: 40px;
+	padding-right: 10px;
+	float: left;
+	color: grey;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+ 	-o-transition: all .1s ease-out;
+ 	transition: all .1s ease-out;
+}
+online.activeon a:hover{
+	color: white;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+ 	-o-transition: all .1s ease-out;
+ 	transition: all .1s ease-out;
+}

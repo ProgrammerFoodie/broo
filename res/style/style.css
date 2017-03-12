@@ -1,0 +1,121 @@
+body {
+	width: 100%;
+	min-height: auto;
+	background-color: rgba(0,0,0,0.41);
+	background-image: url(../img/background.png);
+	background-repeat: repeat;
+	color: white;
+	font-size: 12px;
+	font-family: Palatino Linotype, Book Antiqua3, Palatino, serif;
+}
+
+html{
+	overflow-Y: scroll;
+    overflow-x: hidden;
+
+}
+	#login{
+		display: block;
+	}
+
+	#register{
+		display: none;
+	}
+#content {
+	width: 100%;
+	margin: auto;	
+	margin-top: -30px;
+	margin-left: -8px;
+	background-color: rgba(0,0,0,0);
+}
+header {
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/header.jpg);
+	background-size: 100% 400px;
+	background-attachment: fixed;
+	text-align: center;
+}
+HText {
+	color: white;
+
+}
+HText h1 {
+	background-color: rgba(255,255,255,0.3);
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	margin-bottom: -16px;
+	font-size: 24px;
+	font-style: italic;
+}
+HText h3 {	
+	background-color: rgba(255,255,255,0.3);
+	width: 100%;
+	height: auto;
+	font-size: 16px;
+	padding: 10px;
+	font-style: italic;
+
+}
+menu {	
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+ 	-o-transition: all 2s ease-out;
+ 	transition: all 2s ease-out;
+	margin-left: -70px;
+	padding-top: 25px;
+	background-color: rgba(0,0,0,0.6);
+	padding-bottom: 10px;
+	height: 60px;
+	text-align: right;
+}
+menu ul li {
+	list-style-type: none
+}
+menu a {
+	color: white;
+	text-decoration: none;
+}
+menu li {
+	padding: 16px 20px;
+	margin-right: 5px;
+	display: inline-block;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+ 	border-bottom: 1px solid orange;
+}
+menu li:hover {	
+	color: white;
+	border-bottom: 5px solid orange;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+}
+menu li.active {	
+	color: white;
+	border-bottom: 1px solid green;
+}
+menu li.active:hover {
+	color: white;
+	border-bottom: 5px solid green;
+}
+menu li.block {
+	cursor: not-allowed;
+	border-bottom: 1px solid red;
+}
+menu li.block:hover {
+	cursor: not-allowed;
+	border-bottom: 5px solid red;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+}

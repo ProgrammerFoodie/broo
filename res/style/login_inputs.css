@@ -1,0 +1,90 @@
+button.change-form {
+	padding: 16px 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: grey;
+	margin-bottom: 15px;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+ 	border-bottom: 1px solid orange;
+}
+button.change-form:hover {
+	color: white;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+ 	border-bottom: 3px solid green;
+}
+form {
+	width: 100%;
+}
+input {
+	margin-top: 15px;
+}
+input[type=text]{
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: white;
+	padding: 5px;
+	border-bottom: 1px solid grey;
+}
+input[type=text]:focus {
+	color: white;
+	border-bottom: 1px solid white;
+}
+input[type=email]{
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: white;
+	padding: 5px;
+	border-bottom: 1px solid grey;
+}
+input[type=email]:focus {
+	color: white;
+	border-bottom: 1px solid white;
+}
+input[type=password]{
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: white;
+	padding: 5px;
+	border-bottom: 1px solid grey;
+}
+input[type=password]:focus {
+	color: white;
+	border: none;
+	border-bottom: 1px solid white;
+}
+input:focus:required:invalid {border: none;border-bottom: 2px solid red;}
+input[type=submit]{
+	padding: 16px 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	color: grey;
+	margin-bottom: 15px;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+ 	border-bottom: 1px solid orange;
+}
+input[type=submit]:hover{
+	color: white;
+	-webkit-transition: all 0.1s ease-;
+	-moz-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+ 	-o-transition: all 0.1s ease-out;
+ 	transition: all 0.1s ease-out;
+ 	border-bottom: 3px solid green;
+}
